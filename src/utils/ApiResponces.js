@@ -1,5 +1,6 @@
 class ApiResponces {
     constructor(statuCode,data,message="Success")
+    
     {
         this.statuCode=statuCode,
         this.data=data,
@@ -7,3 +8,5 @@ class ApiResponces {
         this.success=statuCode<400
     }
 }
+
+export {ApiResponces} 
